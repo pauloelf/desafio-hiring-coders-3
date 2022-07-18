@@ -1,8 +1,6 @@
 {
   "vtex.menu@2.x:menu#websites": {
     "children": [
-      "menu-item#shop",
-      "menu-item#about-us"
     ]
   },
   "menu-item#shop": {
@@ -15,8 +13,8 @@
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "Shop",
-        "text": "Shop"
+        "tagTitle": "Produtos",
+        "text": "Produtos"
       }
     }
   },

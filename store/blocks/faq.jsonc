@@ -22,7 +22,7 @@
   },
   "rich-text#faq": {
     "props": {
-      "text": "## FAQ"
+      "text": "## Perguntas frequentes"
     }
   },
 
@@ -56,12 +56,12 @@
   },
   "rich-text#question1": {
     "props": {
-      "text": "How can I change my shipping address?"
+      "text": "Como posso alterar meu endereço de entrega?"
     }
   },
   "rich-text#answer1": {
     "props": {
-      "text": "Call us at the number (212) 1234-1234."
+      "text": "Ligue para o número (212) 1234-1234."
     }
   },
 
@@ -86,12 +86,12 @@
   },
   "rich-text#question2": {
     "props": {
-      "text": "How can I track my order?"
+      "text": "Como posso rastrear meu pedido?"
     }
   },
   "rich-text#answer2": {
     "props": {
-      "text": "After logging into your account, you can find this info at the link Orders."
+      "text": "Depois de fazer login na sua conta, você pode encontrar essas informações no link Pedidos."
     }
   },
 
@@ -117,12 +117,12 @@
   },
   "rich-text#question3": {
     "props": {
-      "text": "How can I change my shipping address?"
+      "text": "Como posso alterar meu endereço de entrega?"
     }
   },
   "rich-text#answer3": {
     "props": {
-      "text": "Call us at the number (212) 1234-1234."
+      "text": "Ligue para o número (212) 1234-1234."
     }
   },
 
@@ -148,12 +148,12 @@
   },
   "rich-text#question4": {
     "props": {
-      "text": "How can I track my order?"
+      "text": "Como posso rastrear meu pedido?"
     }
   },
   "rich-text#answer4": {
     "props": {
-      "text": "After logging into your account, you can find this info at the link Orders."
+      "text": "Depois de fazer login na sua conta, você pode encontrar essas informações no link Pedidos."
     }
   },
 

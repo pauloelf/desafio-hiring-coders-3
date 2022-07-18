@@ -1,0 +1,33 @@
+{
+    "store.custom#products": {
+        "blocks": ["search-result-layout.customQuery"],
+        "children": [
+          "responsive-layout.desktop",
+          "responsive-layout.mobile"
+        ]
+    },
+    "search-result-layout.customQuery": {
+        "blocks":["search-result-layout.desktop",
+                  "search-result-layout.mobile"
+        ],
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByReleaseDateDESC",
+                "hideUnavailableItems": true,
+                "maxItemsPerPage": 8,
+                "queryField": "Camera"
+            }
+        }
+    },
+
+    "responsive-layout.desktop": {
+        "props":{
+            
+        }
+    },
+    "responsive-layout.mobile": {
+        "props":{
+
+        }
+    }
+}

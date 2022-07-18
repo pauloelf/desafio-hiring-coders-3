@@ -20,8 +20,8 @@
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "News",
-        "text": "News"
+        "tagTitle": "Para seu pet",
+        "text": "Para seu pet"
       }
     }
   },
@@ -35,8 +35,8 @@
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "BlackFriday",
-        "text": "Black Friday"
+        "tagTitle": "Produtos",
+        "text": "Produtos"
       }
     }
   },
@@ -48,10 +48,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/faq",
         "noFollow": false,
-        "tagTitle": "Sale",
-        "text": "Sale"
+        "tagTitle": "FAQ",
+        "text": "FAQ"
       }
     }
   },
@@ -63,10 +63,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/contact-us",
         "noFollow": false,
-        "tagTitle": "Personalization",
-        "text": "Personalization"
+        "tagTitle": "Entre em Contato",
+        "text": "Entre em Contato"
       }
     }
   },
@@ -90,10 +90,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/decoration/smartphones",
+        "href": "/pet-s",
         "noFollow": true,
-        "tagTitle": "Smartphones",
-        "text": "Smartphones"
+        "tagTitle": "Pets",
+        "text": "Pets"
       }
     }
   },
@@ -106,10 +106,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/decoration/videogames",
+        "href": "/electronics",
         "noFollow": true,
-        "tagTitle": "Videogames",
-        "text": "Videogames"
+        "tagTitle": "Eletrônicos",
+        "text": "Eletrônicos"
       }
     }
   },
@@ -122,10 +122,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/decoration/tvs",
+        "href": "/Camisetas",
         "noFollow": true,
-        "tagTitle": "TVs",
-        "text": "TVs"
+        "tagTitle": "Camisetas",
+        "text": "Camisetas"
       }
     }
   },
@@ -149,10 +149,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/bags/d",
+        "href": "/account",
         "noFollow": true,
-        "tagTitle": "Bags",
-        "text": "Bags"
+        "tagTitle": "Minha Conta",
+        "text": "Minha Conta"
       }
     }
   },
@@ -165,10 +165,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/bags/backpacks",
+        "href": "/account",
         "noFollow": true,
-        "tagTitle": "Backpacks",
-        "text": "Backpacks"
+        "tagTitle": "Meus Pontos",
+        "text": "Meus Pontos"
       }
     }
   },
@@ -181,10 +181,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/bags/necessaire",
+        "href": "/about-us",
         "noFollow": true,
-        "tagTitle": "Necessaire",
-        "text": "Necessaire"
+        "tagTitle": "Sobre nós",
+        "text": "Sobre nós"
       }
     }
   },
@@ -222,10 +222,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/d",
+        "href": "#",
         "noFollow": true,
-        "tagTitle": "Clothing",
-        "text": "Clothing"
+        "tagTitle": "Produtos",
+        "text": "Produtos"
       }
     },
     "blocks": ["vtex.menu@2.x:submenu.accordion#clothing"]
@@ -250,8 +250,8 @@
   "menu-item#decoration-mobile": {
     "props": {
       "itemProps": {
-        "tagTitle": "Decoration",
-        "text": "Decoration"
+        "tagTitle": "Categorias",
+        "text": "Categorias"
       }
     },
     "blocks": ["vtex.menu@2.x:submenu.accordion#decoration"]
@@ -274,8 +274,8 @@
   "menu-item#sale-mobile": {
     "props": {
       "itemProps": {
-        "tagTitle": "Sale",
-        "text": "Sale"
+        "tagTitle": "Informações",
+        "text": "Informações"
       }
     },
     "blocks": ["vtex.menu@2.x:submenu.accordion#sale"]
@@ -289,9 +289,9 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#smartphones",
-      "menu-item#videogames",
-      "menu-item#tvs"
+      "menu-item#bags",
+      "menu-item#backpacks",
+      "menu-item#necessaire"
     ]
   },
 
@@ -303,10 +303,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/d",
+        "href": "/camiseta-hiring-coders-dreamscape/p",
         "noFollow": true,
-        "tagTitle": "Clothing",
-        "text": "Clothing"
+        "tagTitle": "Camiseta DreamScape",
+        "text": "Camiseta DreamScape"
       }
     }
   },
@@ -319,10 +319,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/shorts",
+        "href": "/bola-macica-colorida/p",
         "noFollow": false,
-        "tagTitle": "Shorts",
-        "text": "Shorts"
+        "tagTitle": "Bola Maciça",
+        "text": "Bola Maciça"
       }
     }
   },
@@ -335,10 +335,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/tank-tops",
+        "href": "/pneu-rally-especial-borracha-com-corda/p",
         "noFollow": false,
-        "tagTitle": "Tank tops",
-        "text": "Tank tops"
+        "tagTitle": "Pneu Rally Especial",
+        "text": "Pneu Rally Especial"
       }
     }
   },
@@ -351,10 +351,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/shirts",
+        "href": "/bebedouro-e-comedouro-para-caes-e-gatos/p",
         "noFollow": false,
-        "tagTitle": "Shirts",
-        "text": "Shirts"
+        "tagTitle": "Bebedouro e Comedouro",
+        "text": "Bebedouro e Comedouro"
       }
     }
   },
@@ -367,10 +367,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/sweatshirt",
+        "href": "/cama-nuvem-pelucia/p",
         "noFollow": false,
-        "tagTitle": "Sweatshirt",
-        "text": "Sweatshirt"
+        "tagTitle": "Cama Nuvem",
+        "text": "Cama Nuvem"
       }
     }
   },
@@ -383,10 +383,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/cropped",
+        "href": "/camera-canon-eos-rebel-t7-lente/p",
         "noFollow": false,
-        "tagTitle": "Cropped",
-        "text": "Cropped"
+        "tagTitle": "Câmera",
+        "text": "Câmera"
       }
     }
   }

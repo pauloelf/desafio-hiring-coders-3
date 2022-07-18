@@ -16,7 +16,7 @@
   },
   "rich-text#specifications": {
     "props": {
-      "text": "##### Product Specifications"
+      "text": "##### Especificações do Produto"
     }
   },
   "flex-layout.row#product-breadcrumb": {

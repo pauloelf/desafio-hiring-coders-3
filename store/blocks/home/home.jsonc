@@ -2,16 +2,18 @@
   "store.home": {
     "blocks": [
       "list-context.image-list#demo",
-      /* You can make references to blocks defined in other files.
-       * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
       "flex-layout.row#deals",
       "__fold__",
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
-      "info-card#home",
+      "rich-text#Produtos para seus Pets",
+      "info-card#cama",
+      "info-card#bebedouro",
+      "info-card#bola",
+      "newsletter",
       "rich-text#question",
       "rich-text#link",
-      "newsletter"
+      "info-card#home"
     ]
   },
 
@@ -32,6 +34,7 @@
       ]
     }
   },
+  
   "slider-layout#demo-images": {
     "props": {
       "itemsPerPage": {
@@ -47,13 +50,21 @@
 
   "rich-text#shelf-title": {
     "props": {
-      "text": "## Summer",
+      "text": "## Nossos Produtos",
       "blockClass": "shelfTitle"
     }
   },
+  "rich-text#Produtos para seus Pets": {
+    "props": {
+      "text": "## Produtos Pets",
+      "blockClass": "shelfTitle"
+    }
+  },
+
   "flex-layout.row#shelf": {
     "children": ["list-context.product-list#demo1"]
   },
+
   "list-context.product-list#demo1": {
     "blocks": ["product-summary.shelf"],
     "children": ["slider-layout#demo-products"],
@@ -61,6 +72,7 @@
       "orderBy": "OrderByTopSaleDESC"
     }
   },
+
   "slider-layout#demo-products": {
     "props": {
       "itemsPerPage": {
@@ -80,9 +92,9 @@
       "isFullModeStyle": false,
       "textPosition": "left",
       "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
-      "headline": "Clearance Sale",
-      "callToActionText": "DISCOVER",
-      "callToActionUrl": "/sale/d",
+      "headline": "Saiba mais sobre nós.",
+      "callToActionText": "EXPLORAR",
+      "callToActionUrl": "/about-us",
       "blockClass": "info-card-home",
       "textAlignment": "center"
     }
@@ -90,15 +102,58 @@
 
   "rich-text#question": {
     "props": {
-      "text": "**This is an example store built using the VTEX platform.\nWant to know more?**",
+      "text": "**Esta é uma loja de exemplo construída usando a plataforma VTEX.\nQuer saber mais?**",
       "blockClass": "question"
     }
   },
 
   "rich-text#link": {
     "props": {
-      "text": "\n**Reach us at**\nwww.vtex.com.br",
+      "text": "\n**ACESSE-NOS EM**\nwww.vtex.com.br",
       "blockClass": "link"
+    }
+  },
+  // CARDS PRODUTOS PET HOME
+
+  "info-card#cama": {
+    "props": {
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://dreamscape.vtexassets.com/arquivos/ids/155440-1600-auto?v=637935295213900000&width=1600&height=auto&aspect=true",
+      "headline": "Cama Nuvem Pelúcia",
+      "subhead": "Seu pet dormindo com conforto e qualidade.<br> Além de bonito também é fácil de limpar.",
+      "callToActionMode": "button",
+      "callToActionText": "COMPRAR",
+      "callToActionUrl": "/cama-nuvem-pelucia/p",
+    "textAlignment": "center"
+    }
+  },
+
+  "info-card#bebedouro": {
+    "props": {
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "imageUrl": "https://dreamscape.vtexassets.com/arquivos/ids/155441-1200-auto?v=637935300244730000&width=1200&height=auto&aspect=true",
+      "headline": "Bebedouro e Comedouro",
+      "subhead": "Seu gatinho ou doguinho se alimentando de forma chique e fácil.<br>200g/500ml",
+      "callToActionMode": "button",
+      "callToActionText": "COMPRAR",
+      "callToActionUrl": "/bebedouro-e-comedouro-para-caes-e-gatos/p",
+    "textAlignment": "center"
+    }
+  },
+
+  "info-card#bola": {
+    "props": {
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://dreamscape.vtexassets.com/arquivos/ids/155443-1600-auto?v=637935307073370000&width=1600&height=auto&aspect=true",
+      "headline": "Bola Maciça Colorida",
+      "subhead": "Uma linda bolinha para seu cão correr e pular atrás dela.<br> Bastante resistente.",
+      "callToActionMode": "button",
+      "callToActionText": "COMPRAR",
+      "callToActionUrl": "bola-macica-colorida/p",
+    "textAlignment": "center"
     }
   }
 }

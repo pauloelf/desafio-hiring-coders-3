@@ -30,8 +30,7 @@
     },
     "children": [
       "vtex.menu@2.x:menu#websites",
-      "flex-layout.col#spacer",
-      "vtex.menu@2.x:menu#institutional"
+      "flex-layout.col#spacer"
     ]
   },
   "flex-layout.col#spacer": {
@@ -80,9 +79,9 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo.png",
+      "url": "https://dewey.tailorbrands.com/production/brand_version_mockup_image/271/7594086271_671a67a3-4519-47f1-8629-aa4cd627a227.png?cb=1657925299",
       "width": "180",
-      "height": "12"
+      "height": "90"
     }
   },
   "header-layout.mobile": {
@@ -125,9 +124,9 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo-mobile.png",
+      "url": "https://dewey.tailorbrands.com/production/brand_version_mockup_image/271/7594086271_671a67a3-4519-47f1-8629-aa4cd627a227.png?cb=1657925299",
       "width": "77.5",
-      "height": "27.5"
+      "height": "33.5"
     }
   }
 }
