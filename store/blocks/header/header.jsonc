@@ -78,7 +78,10 @@
   },
   "search-bar": {
     "props": {
-      "width": "grow"
+      "width": "grow",
+      "attemptPageTypeSearch": true,
+      "autocompleteFullWidth": false,
+      "autocompleteAlignment": "center"
     }
   },
   "logo#desktop": {
