@@ -24,6 +24,7 @@
     "props": {
       "blockClass": "menu-link",
       "horizontalAlign": "center",
+      "verticalAlign": "center",
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
       "fullWidth": true
@@ -75,6 +76,11 @@
     },
     "children": ["vtex.menu@2.x:menu#category-menu"]
   },
+  "search-bar": {
+    "props": {
+      "width": "grow"
+    }
+  },
   "logo#desktop": {
     "props": {
       "title": "Logo",
@@ -113,7 +119,8 @@
     "children": [
       "menu-item#category-apparel",
       "menu-item#category-home",
-      "menu-item#more"
+      "menu-item#more",
+      "search-bar"
     ],
     "props": {
       "orientation": "vertical"

@@ -82,3 +82,9 @@
     transition: none;
   }
 }
+
+:global(.vtex-store-components-3-x-searchBarContainer) {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
